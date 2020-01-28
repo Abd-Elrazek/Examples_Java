@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class GenerateMacAddress{
-    public static List<String> getMacSequences(final String macAddress, final Integer count)
+    public static List<String> getMacSequences(final String macAddress, final long count)
     {
         List<String> macList = new ArrayList<String>();
         final List<Integer> macOctets = new ArrayList<Integer>();
@@ -52,6 +52,6 @@ public class GenerateMacAddress{
     }
 	
 	public static void main(String args[]){
-		System.out.println((getMacSequences("A0",50000)));
+		System.out.println((getMacSequences("A0",999999)));
 	}
 	}
