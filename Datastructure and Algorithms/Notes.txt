@@ -1,0 +1,2 @@
+insert, search, sort, delet
+linear, Binary search

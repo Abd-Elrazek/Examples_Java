@@ -10,8 +10,11 @@ class OuterClass {
 
 public class Many_Class {
   public static void main(String args[]) {
+	  
     OuterClass myOuter = new OuterClass();
+	
     OuterClass.InnerClass myInner = myOuter.new InnerClass();
+
     System.out.println(myInner.myInnerMethod());
   }
 }
