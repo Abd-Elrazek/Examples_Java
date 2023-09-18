@@ -1,0 +1,2 @@
+ What's the benefit of abstract and interfaces in  java ? 
+ 
