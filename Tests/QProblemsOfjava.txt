@@ -1,0 +1,4 @@
+The problems That faced me during training Java :
+
+++ Why when I pass numbers in constructors or pass through method , the compiler tell me \ you can't convert from int to byte and already I defined the attribute as byte ? 
+
